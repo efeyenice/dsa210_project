@@ -1,0 +1,38 @@
+2025-04-24 00:57:13,214 - INFO - Starting data collection...
+2025-04-24 00:57:13,215 - INFO - Teams data collected
+2025-04-24 00:57:34,967 - INFO - Season 2022-23 data collected
+2025-04-24 00:57:56,881 - INFO - Season 2023-24 data collected
+2025-04-24 00:57:56,883 - INFO - Data collection complete!
+2025-04-24 00:57:56,885 - INFO - Processing data for season 2022-23...
+2025-04-24 00:57:56,900 - WARNING - Found missing values:
+FT_PCT    2
+dtype: int64
+2025-04-24 00:57:56,952 - INFO - Season 2022-23 data processing complete!
+2025-04-24 00:57:56,952 - INFO - Processing data for season 2023-24...
+2025-04-24 00:57:56,958 - WARNING - Found missing values:
+WL         1
+FG_PCT     1
+FG3_PCT    1
+FT_PCT     3
+dtype: int64
+2025-04-24 00:57:57,025 - INFO - Season 2023-24 data processing complete!
+2025-04-24 01:01:22,136 - INFO - Starting data collection...
+2025-04-24 01:01:22,140 - INFO - Teams data collected
+2025-04-24 01:01:43,036 - INFO - Season 2022-23 data collected
+2025-04-24 01:02:04,514 - INFO - Season 2023-24 data collected
+2025-04-24 01:02:04,515 - INFO - Data collection complete!
+2025-04-24 01:02:04,516 - INFO - Processing data for season 2022-23...
+2025-04-24 01:02:04,533 - WARNING - Found missing values:
+FT_PCT    2
+dtype: int64
+2025-04-24 01:02:04,539 - INFO - Missing values have been imputed
+2025-04-24 01:02:04,631 - INFO - Season 2022-23 data processing complete!
+2025-04-24 01:02:04,631 - INFO - Processing data for season 2023-24...
+2025-04-24 01:02:04,635 - WARNING - Found missing values:
+WL         1
+FG_PCT     1
+FG3_PCT    1
+FT_PCT     3
+dtype: int64
+2025-04-24 01:02:04,637 - INFO - Missing values have been imputed
+2025-04-24 01:02:04,676 - INFO - Season 2023-24 data processing complete!
