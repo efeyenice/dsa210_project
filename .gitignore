@@ -1,8 +1,0 @@
-notebooks/.ipynb_checkpoints/
-data/
-create_notebook.py
-plots/*.tmp
-plots/*.temp
-*.pyc
-__pycache__/
-.DS_Store
