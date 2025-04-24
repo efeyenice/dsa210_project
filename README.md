@@ -7,18 +7,24 @@ This project uses Jupyter notebooks to collect and analyze NBA game data for pre
 ```
 project/
 ├── data/               # Directory for storing collected data
+├── env/                # Environment files
+│   ├── environment.yml # Conda environment file
+│   └── requirements.txt # Pip requirements file
 ├── notebooks/          # Jupyter notebooks for data collection and analysis
-└── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
 ```
 
-## Notebooks
+## Environment Setup
 
-1. `01_data_collection.ipynb`: Collects NBA game data from the NBA API and saves it to CSV files
-   - Collects team data
-   - Collects game data for each season
-   - Collects team-specific game logs
+### Using Conda (Recommended)
 
-## Setup
+1. Create and activate the conda environment:
+```bash
+conda env create -f env/environment.yml
+conda activate nba_project
+```
+
+### Using Pip
 
 1. Create a virtual environment:
 ```bash
@@ -28,17 +34,24 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r env/requirements.txt
 ```
 
-3. Start Jupyter:
+## Running the Notebooks
+
+1. Start Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
 
-## Data Collection
+2. Open `notebooks/01_data_collection.ipynb` and run the cells in sequence.
 
-Run the cells in `01_data_collection.ipynb` to collect NBA data. The data will be saved in the `data` directory as CSV files.
+## Notebooks
+
+1. `01_data_collection.ipynb`: Collects NBA game data from the NBA API and saves it to CSV files
+   - Collects team data
+   - Collects game data for each season
+   - Collects team-specific game logs
 
 ## Requirements
 
