@@ -1,4 +1,52 @@
-# NBA Game Outcome Prediction (Win/Loss)
+# NBA Game Outcome Prediction
+
+This project uses Jupyter notebooks to collect and analyze NBA game data for predicting game outcomes.
+
+## Project Structure
+
+```
+project/
+├── data/               # Directory for storing collected data
+├── notebooks/          # Jupyter notebooks for data collection and analysis
+└── requirements.txt    # Python dependencies
+```
+
+## Notebooks
+
+1. `01_data_collection.ipynb`: Collects NBA game data from the NBA API and saves it to CSV files
+   - Collects team data
+   - Collects game data for each season
+   - Collects team-specific game logs
+
+## Setup
+
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Start Jupyter:
+```bash
+jupyter notebook
+```
+
+## Data Collection
+
+Run the cells in `01_data_collection.ipynb` to collect NBA data. The data will be saved in the `data` directory as CSV files.
+
+## Requirements
+
+- Python 3.8+
+- Jupyter Notebook
+- pandas
+- nba_api
+- tqdm
 
 ## Project Overview
 Over the next three months, I will analyze NBA game data to predict whether a team will win or lose based on key statistics. By leveraging machine learning techniques, I aim to identify which factors contribute most to a team's success. This project will involve data collection, feature engineering, exploratory data analysis, and predictive modeling.
