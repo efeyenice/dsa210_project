@@ -52,7 +52,6 @@ jupyter notebook
    - `06_feature_selection.ipynb`: Selects important features
    - `07_model_training.ipynb`: Trains models
    - `08_model_evaluation.ipynb`: Evaluates models
-   - `09_model_deployment.ipynb`: Deploys model
 
 ## Requirements
 
