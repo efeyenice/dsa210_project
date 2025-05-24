@@ -1,16 +1,13 @@
 # NBA Game Outcome Prediction
 
-This project uses Jupyter notebooks to collect and analyze NBA game data for predicting game outcomes.
+This project predicts NBA game outcomes using Jupyter notebooks for data processing and analysis.
 
 ## Project Structure
 
 ```
 project/
-├── data/               # Directory for storing collected data
-├── env/                # Environment files
-│   ├── environment.yml # Conda environment file
-│   └── requirements.txt # Pip requirements file
-├── notebooks/          # Jupyter notebooks for data collection and analysis
+├── data/               # Data storage
+├── notebooks/          # Jupyter notebooks for processing
 └── README.md           # Project documentation
 ```
 
@@ -44,22 +41,27 @@ pip install -r env/requirements.txt
 jupyter notebook
 ```
 
-2. Open `notebooks/01_data_collection.ipynb` and run the cells in sequence.
-
-## Notebooks
-
-1. `01_data_collection.ipynb`: Collects NBA game data from the NBA API and saves it to CSV files
-   - Collects team data
-   - Collects game data for each season
-   - Collects team-specific game logs
+2. Run notebooks in sequence:
+   - `01_data_collection.ipynb`: Collects NBA game data
+   - `02_eda.ipynb`: Exploratory data analysis
+   - `03_hypothesis_testing.ipynb`: Statistical testing
+   - `02_data_enrichment.ipynb`: Adds features
+   - `03_feature_engineering.ipynb`: Creates new features
+   - `04_feature_transformation.ipynb`: Transforms features
+   - `05_data_preparation.ipynb`: Prepares data for modeling
+   - `06_feature_selection.ipynb`: Selects important features
+   - `07_model_training.ipynb`: Trains models
+   - `08_model_evaluation.ipynb`: Evaluates models
+   - `09_model_deployment.ipynb`: Deploys model
 
 ## Requirements
 
 - Python 3.8+
 - Jupyter Notebook
-- pandas
-- nba_api
-- tqdm
+- pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost, shap, flask, joblib
+
+## Summary
+This project involves collecting NBA data, performing feature engineering, and applying machine learning models to predict game outcomes. The process is fully documented in Jupyter notebooks, allowing for easy reproduction of results.
 
 ## Project Overview
 Over the next three months, I will analyze NBA game data to predict whether a team will win or lose based on key statistics. By leveraging machine learning techniques, I aim to identify which factors contribute most to a team's success. This project will involve data collection, feature engineering, exploratory data analysis, and predictive modeling.
